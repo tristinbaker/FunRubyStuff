@@ -11,8 +11,8 @@ word_hash_alpha_sorted = word_hash.sort.to_h
 sorted = []
 
 word_hash_alpha_sorted.each do |word, count|
-	count.times do |i|
-		sorted << "#{word} "
+  count.times do |i|
+    sorted << "#{word} "
 	end
 	sorted << "#{$/}"
 end
