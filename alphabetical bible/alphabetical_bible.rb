@@ -13,7 +13,7 @@ sorted = []
 word_hash_alpha_sorted.each do |word, count|
   count.times do |i|
     sorted << "#{word} "
-	end
+  end
   sorted << "#{$/}"
 end
 
